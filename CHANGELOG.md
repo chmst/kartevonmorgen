@@ -1,3 +1,12 @@
+## v0.1.26 (2018-10-24)
+- new(LandingPage): add privacy statement
+- new(EntryDetails): show Positivfaktoren-pin for each rating-category
+- new(Businesscard-Widget): remove entry-image in businesscard-widget
+- new(index.html): add Facebook Open Graph tags to show kvm-logo whenever the site is shared on Facebook
+- new(Favicon): change Favicon (3 pins and better resolution)
+- new(EntryForm): allow URLs without 'http' and 'www' (added in openfairdb), and hide 'https://www' in EntryDetails
+- new(EntryDetails): use 400x300 as suggested image format
+
 ## v0.1.25 (2018-08-27)
 - new(EntryDetails): add optional image to entry pages
 - refactor(*): transfer part of App.js into Sidebar.js
@@ -6,7 +15,6 @@
 - fix(styling): fix appearance of locate-button
 - new(notification): replace redux-flash-notification with reapop as the former is not maintained anymore
 - new(LandingPage): add 'Stadt Mannheim' as partner
-
 
 ## v0.1.24 (2018-03-22)
 - fix(IE-bug): fix bug with IE10 and lower which can't access window.location.origin
